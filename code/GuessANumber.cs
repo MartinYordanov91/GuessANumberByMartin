@@ -6,37 +6,43 @@ namespace Guess_A_Number
     {
         static void Main(string[] args)
         {
-            Random randomNumber = new Random();
-            int computerNumber = randomNumber.Next(1, 101);
-
-            while (true)
+            for (int i = 100; i < 1000; i+=100)
             {
-                Console.Write("Guess a number (1 - 100): ");
 
-                string playerInput = Console.ReadLine();
-                bool isValid = int.TryParse(playerInput, out int playerNumber);
 
-                if (isValid)
+                Random randomNumber = new Random();
+                int computerNumber = randomNumber.Next(1, i);
+
+                while (true)
                 {
-                    if (computerNumber == playerNumber)
+                    Console.Write($"Guess a number lv - {i/100} (1 - {i}): ");
+
+                    string playerInput = Console.ReadLine();
+                    bool isValid = int.TryParse(playerInput, out int playerNumber);
+
+                    if (isValid)
                     {
-                        Console.WriteLine("You guessed it !");
-                        break;
-                    }
-                    else if (computerNumber > playerNumber)
-                    {
-                        Console.WriteLine("Too Low");
+                        if (computerNumber == playerNumber)
+                        {
+                            Console.WriteLine("You guessed it !");
+                            break;
+                        }
+                        else if (computerNumber > playerNumber)
+                        {
+                            Console.WriteLine("Too Low");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Too High");
+                        }
                     }
                     else
                     {
-                        Console.WriteLine("Too High");
+                        Console.WriteLine("Invalid input.");
                     }
                 }
-                else
-                {
-                    Console.WriteLine("Invalid input.");
-                }
             }
+            Console.WriteLine(" You are WINER");
         }
     }
 }

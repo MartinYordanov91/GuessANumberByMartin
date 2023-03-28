@@ -16,5 +16,11 @@ In which the computer randomly selects a number in a range relative to the level
 >lv 7 -> (1 - 700)\
 >lv 8 -> (1 - 800)\
 >lv 9 -> (1 - 900)\
->lv 10 -> (1 - 1 000)\
+>lv 10 -> (1 - 1 000)
+
+At the first level, the number that the computer thinks is in the range from 1 to 100.\
+You will enter a number, you will receive a hint your number is low, your number is high or guess the number\
+In case of invalid login, you will be notified:\
+Invalid input.
+
 

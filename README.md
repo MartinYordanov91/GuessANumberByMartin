@@ -20,7 +20,7 @@ In which the computer randomly selects a number in a range relative to the level
 
 At the first level, the number that the computer thinks is in the range from 1 to 100.\
 You will enter a number, you will receive a hint your number is low, your number is high or guess the number\
-In case of invalid login, you will be notified:\
-Invalid input.
+In case of invalid login, you will be notified: Invalid input.
+
 
 

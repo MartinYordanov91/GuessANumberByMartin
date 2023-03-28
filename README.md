@@ -25,3 +25,12 @@ In case of invalid login, you will be notified: Invalid input.
 
  > ## Link to the my Source Code:
  >> [Source Code](https://github.com/MartinYordanov91/GuessANumberByMartin/blob/main/code/GuessANumber.cs)
+ 
+ > ![image](https://user-images.githubusercontent.com/124835928/228362817-008fe9ce-25aa-4449-ab0f-9892e411b331.png)\
+ > ![image](https://user-images.githubusercontent.com/124835928/228363044-4668befd-67c3-4b65-beb2-2717526557b6.png)\
+ > ![image](https://user-images.githubusercontent.com/124835928/228363326-54385e79-0b75-49b6-acfc-e741c22c21ca.png)\
+ > ![image](https://user-images.githubusercontent.com/124835928/228363586-81ed92a3-147d-4d83-aa55-04ce2b379865.png)
+
+
+
+
